@@ -4,6 +4,7 @@
 import { useState, useEffect } from 'react'
 import { ThemeProvider } from '../lib/ThemeContext'
 import SplashScreen from './UI/SplashScreen'
+import Navigation from './UI/Navigation'
 
 
 function PortfolioContent() {
@@ -22,8 +23,12 @@ function PortfolioContent() {
 
   return (
     <>
-    Welcome to my new Portfolio
       {showSplash && <SplashScreen onComplete={handleSplashComplete} />}
+      {!showSplash && (
+        <>
+          <Navigation />
+        </>
+      )}
     </>
   )
 }
