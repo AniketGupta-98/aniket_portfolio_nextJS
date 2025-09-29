@@ -5,6 +5,7 @@ import { useState, useEffect } from 'react'
 import { ThemeProvider } from '../lib/ThemeContext'
 import SplashScreen from './UI/SplashScreen'
 import Navigation from './UI/Navigation'
+import HeroSection from './Sections/HeroSection'
 
 
 function PortfolioContent() {
@@ -27,6 +28,9 @@ function PortfolioContent() {
       {!showSplash && (
         <>
           <Navigation />
+          <main>
+            <HeroSection />
+          </main>
         </>
       )}
     </>

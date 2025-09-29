@@ -13,3 +13,21 @@ export const PERSONAL_INFO = {
   clientsSatisfied: 15
 }
 
+export const SOCIAL_LINKS = [
+  {
+    name: 'GitHub',
+    url: PERSONAL_INFO.github,
+    icon: 'Github'
+  },
+  {
+    name: 'LinkedIn',
+    url: PERSONAL_INFO.linkedin,
+    icon: 'Linkedin'
+  },
+  {
+    name: 'Email',
+    url: `mailto:${PERSONAL_INFO.email}`,
+    icon: 'Mail'
+  }
+]
+
