@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
   email: 'aniketgupta6394@gmail.com',
   location: 'Sector 59, Noida, NCR, India',
   linkedin: '',
-  github: '',
+  github: 'https://github.com/AniketGupta-98',
   resume: '',
   yearsOfExperience: 2.4,
   projectsCompleted: 20,
